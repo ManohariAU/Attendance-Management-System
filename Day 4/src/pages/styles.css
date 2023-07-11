@@ -1,0 +1,22 @@
+.home{
+  width: 100%;
+  height: 89vh;
+  margin-top: 0px;
+  background-attachment: fixed;
+  background: url("home-page.jpg");
+  background-size:cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  }
+  .text {
+    padding-top: 120px;
+    padding-left: 200px;
+    font-size: 2.4em;
+    color: whitesmoke;
+    font-weight: 600;
+    letter-spacing: 1px ;
+  }
+  .stext{
+    padding-left: 210px;
+  }
