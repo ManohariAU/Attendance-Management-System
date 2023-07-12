@@ -1,0 +1,23 @@
+.footer {
+    background-color: gray;
+    padding: 10px;
+    
+  
+  .footer-text {
+    font-size: 14px;
+    color: black;
+    text-align: center;
+  }
+  }
+  .foot-list{
+    list-style-type:none;
+  }
+  .foot-list li{
+    display: inline-block;
+  }
+  .foot-list a {
+    text-decoration: underline;
+    color: black;
+    align-items: center;
+    padding: 50px;
+  }
