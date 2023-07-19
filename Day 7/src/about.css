@@ -1,0 +1,72 @@
+.about {
+  width: 100%;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
+
+.about-bg {
+  flex-grow: 1;
+  background: url("black-gradient.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.about-box {
+  background-color: gainsboro;
+  width: 600px;
+  height: 280px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.about-text {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.head-text {
+  font-size: 3.4em;
+  padding-left: 180px;
+  font-weight: bolder;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card-description {
+  font-size: 16px;
+  margin-top: 10px;
+}

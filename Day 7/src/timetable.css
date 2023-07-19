@@ -1,0 +1,47 @@
+.timetable {
+    font-family: 'Courier New', monospace;
+    color: white;
+    width: 900px;
+    margin-left: 250px;
+    margin-top: 50px;
+  }
+  
+  .timetable-title {
+    text-align: center;
+    margin-bottom: 20px;
+    padding:10px;
+  }
+  
+  .t1 {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .th1,
+  .td1 {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid white;
+  }
+  
+  thead th {
+    background-color: black;
+    color: white;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #333;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #555;
+  }
+  .time-bg{
+    flex-grow: 1;
+    background: url("black-gradient.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    overflow: hidden;
+  }

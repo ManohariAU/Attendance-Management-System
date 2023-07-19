@@ -1,0 +1,64 @@
+.front-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .icons-bg {
+    display: flex;
+    flex-grow: 1;
+    background: url("black-gradient.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      min-height: 100vh;
+      overflow: hidden; 
+  }
+
+  .icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    margin-left: 250px;
+  }
+  
+  .icon-link {
+    text-decoration: none;
+  }
+  
+  .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    cursor: pointer;
+    padding: 30px;
+  }
+  
+  .icon svg {
+    font-size: 200px; /* Increase the icon size */
+    background-color: white; /* Set the background color of the icon */
+    color: black; /* Set the icon color */
+    border-radius: 20%; /* Add a border-radius for rounded icons */
+    padding: 25px; /* Adjust the padding as needed */
+    filter: brightness(200%); /* Increase the brightness of the white color */
+  }
+  
+  .icon span {
+    margin-top: 20px;
+    color: aliceblue; /* Set the color of the icon labels */
+  }
+  .container span{
+    margin: 50px;
+    align-items: center;
+    color: aliceblue;
+  }
+  
+  /* Add hover styles for the icons */
+  .icon:hover svg {
+    background-color: gray; /* Set the background color on hover */
+    color: white; /* Set the icon color on hover */
+    filter: brightness(100%); /* Reset the brightness on hover */
+  }
