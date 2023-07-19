@@ -1,0 +1,59 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.login-form label {
+  margin-bottom: 5px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  white-space:nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.boxxe{
+  width: 500px;
+  border-radius: 10px;
+  border: 1px solid  black;
+  border-radius: 10px;
+  padding-left: 55px;
+}
+.box{
+  width: 500px;
+  border-radius: 10px;
+  border: 1px solid  black;
+  border-radius: 10px;
+  padding-left: 55px;
+}
+
+
+.box2{
+  background: url("school-attendance.jpg");
+  background-attachment: fixed;
+  background-size:cover; 
+  margin-left: 2px;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 800px;
+  border-radius: 10px;
+}
+
+
+
+

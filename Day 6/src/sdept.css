@@ -1,0 +1,33 @@
+.sdept{
+    width: 100%;
+    margin-top: 0px;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+    }
+.sdept-bg{
+    flex-grow: 1;
+    background: url("black-gradient.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      min-height: 100vh;
+      overflow: hidden;
+}
+.sdept-text{
+    padding-top: 120px;
+    padding-left: 200px;
+    font-size: 2.4em;
+    color: whitesmoke;
+    font-weight: 600;
+    letter-spacing: 1px ;
+}
+
+.sdept-button-cont{
+    padding:80px;
+    margin-left:400px;
+    justify-content: space-between;
+    display: flex;
+    
+}
