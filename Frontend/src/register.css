@@ -1,0 +1,22 @@
+.rregister{
+  width: 100%;
+  margin-top: 0px;
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  background-image: url("black-gradient.jpg");
+  color: aliceblue;
+
+}
+
+#rform{
+  width: 350px;
+  overflow: hidden;
+  margin-left: 600px;
+  border :1px solid white;
+  padding-left: 150px;
+  padding-bottom: 50px;
+  background-color: white;
+  color: black;
+}

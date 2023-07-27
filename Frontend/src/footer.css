@@ -1,0 +1,26 @@
+.footer {
+    background-color: gray;
+    padding: 10px;
+    
+  
+  .footer-text {
+    font-size: 14px;
+    color: black;
+    text-align: center;
+  }
+  }
+  .foot-list{
+    list-style-type:none;
+  }
+  .foot-list li{
+    display: inline-block;
+  }
+  .foot-list a {
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    padding: 50px;
+  }
+   .icon-spacing {
+    margin-left:2px;
+  } 

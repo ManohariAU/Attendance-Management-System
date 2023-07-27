@@ -1,0 +1,21 @@
+.manage{
+  width: 100%;
+  margin-top: 0px;
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
+.m-bg{
+    padding-top: 100px;
+    padding-left: 350px;
+    color: whitesmoke;
+    letter-spacing: 1px ;
+    flex-grow: 1;
+    background: url("black-gradient.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      min-height: 100vh;
+      overflow: hidden;
+}

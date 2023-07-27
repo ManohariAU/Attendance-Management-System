@@ -1,0 +1,219 @@
+.home{
+  width: 100%;
+  margin-top: 0px;
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  }
+  .text {
+    padding-top: 120px;
+    padding-left: 200px;
+    font-size: 2.4em;
+    color: whitesmoke;
+    font-weight: 600;
+    letter-spacing: 1px ;
+    flex-grow: 1;
+    background: url("home-page.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      min-height: 100vh;
+      overflow: hidden;
+  }
+  .attendance{
+    width: 100%;
+    margin-top: 0px;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+  }
+
+.user{
+  width:700px;
+  height:100px;
+  background-color: gray;
+  margin-left:200px ;
+  color:black;
+  font-size:1.0em;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 400px;
+  }
+  .atext {
+    padding-top:50px;
+    padding-left: 50px;
+    font-size: 2.0em;
+    color: whitesmoke;
+    font-weight: 600;
+    letter-spacing: 1px ;
+    flex-grow: 1;
+  }
+  .att-bg{
+    flex-grow: 1;
+    background: url("black-gradient.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  .name-cell {
+    padding-right: 300px;
+  }
+  .calendar-container {
+    padding: 20px;
+  }
+  
+  .month-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .month-card {
+    width: calc(25% - 20px);
+    background-color: gray;
+    border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 20px;
+    margin-right: px;
+  }
+  
+  .month-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .dates-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+    padding:0px;
+  }
+  .calendar-date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .present {
+    background-color: green;
+    color: white;
+  }
+  
+  .absent {
+    background-color: red;
+    color: white;
+
+  }
+
+  .leave-bg{
+    flex-grow: 1;
+    background: url("black-gradient.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    overflow: hidden;
+    color: white;
+    
+  }
+  
+  .ltext {
+    padding-top:10px;
+    padding-left: 50px;
+    font-size: 2.0em;
+    color: whitesmoke;
+    font-weight: 600;
+    letter-spacing: 1px ;
+  }
+
+  .lbox-container {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    margin:10px;
+    width:1000px;
+    height:200px;
+    margin-left:250px;
+  }
+  
+  .lbox {
+    height: 250px;
+    border-radius: 2px;
+    background-color: gainsboro;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left:20px;
+    width: 250px;
+    padding-right: 0px;
+    color: black;
+    padding: 20px;
+  }
+
+  .form-bg{
+    flex-grow: 1;
+    background: url("black-gradient.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    overflow: hidden;
+    
+  }
+
+  .form-container{
+    background-color: gainsboro;
+    width:500px;
+    height:450px;
+    margin:50px;
+    padding:50px;
+    margin-left:450px;
+
+  }
+
+  .report {
+      width: 100%;
+      margin-top: 0px;
+      display:flex;
+      flex-direction: column;
+      min-height: 100vh;
+      position: relative;
+  }
+  .g-bg{
+    flex-grow: 1;
+    background: url("black-gradient.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+
+  .gform-container{
+    background-color: gainsboro;
+    width:500px;
+    height:250px;
+    margin:120px;
+    padding:50px;
+    margin-left:450px;
+
+  }
+  .gtext {
+    padding-top:10px;
+    padding-left: 50px;
+    font-size: 2.0em;
+    color: whitesmoke;
+    font-weight: 600;
+    letter-spacing: 1px ;
+  }
+
+  
+  
+  

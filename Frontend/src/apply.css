@@ -1,0 +1,38 @@
+.admin-add,.admin-form{
+    width: 100%;
+    margin-top: 0px;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+}
+.admin-add-bg{
+    color: whitesmoke;
+    flex-grow: 1;
+    background: url("black-gradient.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      min-height: 100vh;
+      overflow: hidden;
+}
+
+.admin-box{
+    flex-grow: 1;
+      min-height: 100vh;
+      overflow: hidden;
+}
+
+.admin-box-bg{
+    width: 300px;
+    height: 220px;
+    margin: 100px;
+    margin-left: 600px;
+    margin-top: 150px;
+  
+}
+.admin-add-button{
+    display: flex; /* Use flexbox to align buttons horizontally */
+  justify-content: space-between; /* Center the buttons horizontally */
+  margin-top: 10px;
+}

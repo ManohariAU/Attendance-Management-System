@@ -1,0 +1,72 @@
+/* login.css */
+
+.login-container {
+  display: flex;
+  height: 100vh;
+  padding: 0;
+  margin: 0; /* Set the container to full viewport height */
+  /* Stretch items vertically to match container height */
+}
+
+.left-image {
+  flex: 3; /* Take up one-third of the available width */
+  background-size: cover;
+  background-position: cover;
+  background-image: url("school-attendance.jpg");
+  background-repeat: no-repeat;
+  width: 800px;
+  margin-left: 0px;
+  padding: 0px;
+}
+
+.right-form {
+  flex: 1; /* Take up two-thirds of the available width */
+  display: flex;
+  align-items: center; /* Center the form vertically */
+  justify-content: center;
+  margin-right: 400px;
+  width: 800px;
+   /* Center the form horizontally */
+}
+
+.student-login-form-bg {
+  /* Style for the login form container, you can add additional styles here */
+  width: 100%;
+  max-width: 400px; /* Limit the form width for better responsiveness */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+/* Additional styles for form elements, adjust as needed */
+.student-login-form-bg h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.student-login-form-bg label,
+.student-login-form-bg input,
+.student-login-form-bg button {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.student-login-form-bg button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+/* Styling for the signup link */
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}

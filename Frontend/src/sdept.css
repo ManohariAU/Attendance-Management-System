@@ -1,0 +1,87 @@
+.sdept{
+  width: 100%;
+  margin-top: 0px;
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+}
+
+.links-button-hover:not(:last-child) {
+  margin-right: 80px; /* Add space between buttons except for the last one */
+}
+.sdept-bg{
+  background: url("black-gradient.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.year-link {
+    padding: 20px 20px;
+    background-color: #426ca7;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+   
+}
+.flex-cont{
+  display: flex;
+  
+  margin-top: 250px;
+  margin-left: 450px;
+  
+}
+  
+  .links-button{
+    margin-bottom: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-right: 10px;
+    white-space: nowrap;
+  }
+
+ 
+
+  .links-button:hover {
+    margin-right: 80px;
+  }
+  /* it.css */
+
+.links-button-hover {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 90px;
+  text-decoration: none; /* Increase the space between year links */
+
+}
+
+.sections-container {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  background-color: transparent;
+  left: 0;
+  z-index: 1;
+  padding: 6px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.links-button-hover:hover .sections-container {
+  visibility: visible;
+}
+
+.links-button,
+.links-button:hover,
+.links-button:focus,
+.links-button:active,
+.links-button:visited {
+  text-decoration: none;
+}
+.links-button {
+  text-decoration: none !important;
+}
